@@ -2,11 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JoyCon</title>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
+    <div id="kotak"></div>
+    <button id="btn">Kiri</button>
+    <button id="btn1">Kanan</button>
+    <button id="btn2">Atas</button>
+    <button id="btn3">Bawah</button>
+
+    <script>
+        var btn = document.getElementById('btn');
+        btn.onclick = function() {
+        var kiri = document.createElement('kiri');
+        var kotak = document.getElementById('kotak');
+        alert('kiri');
+}
+    </script>
+    <script>
+        var btn1 = document.getElementById('btn1');
+        btn1.onclick = function() {
+        var kanan = document.createElement('kanan');
+        var kotak = document.getElementById('kotak');
+        alert('kanan');
+}
+    </script>
+    <script>
+        var btn2 = document.getElementById('btn2');
+        btn2.onclick = function() {
+        var atas = document.createElement('atas');
+        var kotak = document.getElementById('kotak');
+        alert('atas');
+}
+    </script>
+    <script>
+        var btn3 = document.getElementById('btn3');
+        btn3.onclick = function() {
+        var bawah = document.createElement('bawah');
+        var kotak = document.getElementById('kotak');
+        alert('bawah');
+}
+    </script>
+
+    <footer>
+        <p>
+            NIM : 21430109 </br>
+            Nama : Linda Oktaviani </br>
+            Link Github : </br>
+        </p>
+    </footer>
+</body>
+</html>
+
     <!-- buat komponen yang menggambarkan controller @MUTAMA -->
     <!--    [^]                -->
     <!-- [<][v][>]      [B][A] -->
